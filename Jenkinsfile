@@ -24,7 +24,7 @@ pipeline
       }
       steps
       {
-        echo "testing the application version ${VERSION}"
+        echo "testing the application version ${params.VERSION}"
       }
     }
     stage("deploy")
